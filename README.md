@@ -254,7 +254,7 @@ Y → Region
 Z → Casualties
 ```
 
-Each point represents terrorism-related observations, with casualty levels represented through marker properties.
+** point represents terrorism-related observations, with casualty levels represented through marker properties.**
 
 ### Purpose
 
