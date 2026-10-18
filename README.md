@@ -214,7 +214,7 @@ A geographical visualization is created using **GeoPandas** to display terrorism
 
 An interactive **Plotly choropleth map** is also developed.
 
-Countries are colored according to the number of terrorism incidents.
+**Countries are colored according to the number of terrorism incidents.**
 
 The map provides:
 
