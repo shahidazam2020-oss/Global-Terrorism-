@@ -288,7 +288,7 @@ Therefore, comparing:
 
 The final visualization uses geographical coordinates to create a **casualty-density heatmap**.
 
-The visualization uses:
+**The visualization uses:**
 
 * Latitude
 * Longitude
