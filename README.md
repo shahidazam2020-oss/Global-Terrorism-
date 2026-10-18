@@ -98,7 +98,7 @@ casualties = number killed + number wounded
 
 ## 🥇 1. Top 20 Countries by Terrorism Incidents
 
-A horizontal interactive bar chart is used to identify countries with the highest number of recorded terrorism incidents.
+**A horizontal interactive bar chart is used to identify countries with the highest number of recorded terrorism incidents.**
 
 ### Visualization highlights:
 
