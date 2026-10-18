@@ -109,7 +109,7 @@ casualties = number killed + number wounded
 * Color intensity based on incident count
 
 **Purpose:**
-This visualization makes it easy to compare the countries with the largest numbers of recorded incidents.
+**This visualization makes it easy to compare the countries with the largest numbers of recorded incidents.**
 
 ---
 
