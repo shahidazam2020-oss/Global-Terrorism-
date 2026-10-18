@@ -206,7 +206,7 @@ A geographical visualization is created using **GeoPandas** to display terrorism
 * Geographic shapefiles
 
 **Purpose:**
-To provide a visual representation of the global geographical distribution of terrorism incidents.
+**To provide a visual representation of the global geographical distribution of terrorism incidents.**
 
 ---
 
