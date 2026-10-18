@@ -174,7 +174,7 @@ casualties = number killed + number wounded
 
 # 🔥 7. Attack Type vs Target Type Heatmap
 
-A heatmap is created using a pivot table containing:
+**A heatmap is created using a pivot table containing:**
 
 **Attack Type × Target Type**
 
