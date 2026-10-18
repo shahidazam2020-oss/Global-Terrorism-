@@ -166,7 +166,7 @@ casualties = number killed + number wounded
 
 *The project goes beyond a simple frequency comparison by examining how different attack types change over time.*
 
-Multiple attack categories are plotted across the years, allowing trends to be compared.
+*Multiple attack categories are plotted across the years, allowing trends to be compared.*
 
 This provides a deeper understanding of how the nature of terrorism incidents has changed over the historical period covered by the dataset.
 
