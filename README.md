@@ -90,7 +90,7 @@ The casualty variable is calculated as:
 casualties = number killed + number wounded
 ```
 
-This provides a combined measure of the human impact of an incident.
+**This provides a combined measure of the human impact of an incident.**
 
 ---
 
