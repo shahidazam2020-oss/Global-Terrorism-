@@ -117,7 +117,7 @@ casualties = number killed + number wounded
 
 **The project also visualizes countries with relatively low numbers of recorded terrorism incidents.**
 
-This provides a contrasting view to the top-country analysis and demonstrates how incident frequency varies across countries.
+**This provides a contrasting view to the top-country analysis and demonstrates how incident frequency varies across countries.**
 
 ---
 
