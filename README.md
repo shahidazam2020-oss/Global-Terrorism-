@@ -115,7 +115,7 @@ casualties = number killed + number wounded
 
 ## 📉 2. Countries with the Lowest Number of Incidents
 
-The project also visualizes countries with relatively low numbers of recorded terrorism incidents.
+**The project also visualizes countries with relatively low numbers of recorded terrorism incidents.**
 
 This provides a contrasting view to the top-country analysis and demonstrates how incident frequency varies across countries.
 
