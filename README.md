@@ -84,7 +84,7 @@ The project:
 * Converts numerical columns to smaller data types to reduce memory usage
 * Creates a new **casualties** variable
 
-The casualty variable is calculated as:
+**The casualty variable is calculated as:**
 
 ```python
 casualties = number killed + number wounded
