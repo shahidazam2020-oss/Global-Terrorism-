@@ -158,7 +158,7 @@ casualties = number killed + number wounded
 **Examples of attack categories represented in the dataset include different forms of armed attacks, bombings, kidnappings, and other methods.**
 
 **Purpose:**
-To determine which attack types occur most frequently within the dataset.
+**To determine which attack types occur most frequently within the dataset.**
 
 ---
 
