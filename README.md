@@ -197,7 +197,7 @@ casualties = number killed + number wounded
 
 A geographical visualization is created using **GeoPandas** to display terrorism incidents by country.
 
-Countries are shaded according to their number of recorded incidents.
+**Countries are shaded according to their number of recorded incidents.**
 
 ### Technologies used
 
