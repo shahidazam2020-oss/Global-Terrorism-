@@ -178,7 +178,7 @@ casualties = number killed + number wounded
 
 **Attack Type × Target Type**
 
-The cells represent the number of incidents associated with each combination.
+**The cells represent the number of incidents associated with each combination.**
 
 ### Why this visualization is useful
 
