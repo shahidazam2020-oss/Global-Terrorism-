@@ -258,7 +258,7 @@ Z → Casualties
 
 ### Purpose
 
-The 3D visualization provides another perspective for examining the relationship between:
+**The 3D visualization provides another perspective for examining the relationship between:**
 
 * Time
 * Geographic region
