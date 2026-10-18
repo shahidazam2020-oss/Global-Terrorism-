@@ -153,7 +153,7 @@ casualties = number killed + number wounded
 
 ## ⚔️ 5. Incidents by Attack Type
 
-A bar chart compares the frequency of different attack methods.
+**A bar chart compares the frequency of different attack methods.**
 
 Examples of attack categories represented in the dataset include different forms of armed attacks, bombings, kidnappings, and other methods.
 
