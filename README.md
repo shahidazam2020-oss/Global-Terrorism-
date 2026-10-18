@@ -123,7 +123,7 @@ This provides a contrasting view to the top-country analysis and demonstrates ho
 
 ## 💀 3. Casualties by Attack Type
 
-A strip/scatter-style visualization is used to analyze casualties associated with different attack types.
+**A strip/scatter-style visualization is used to analyze casualties associated with different attack types.**
 
 The visualization considers:
 
