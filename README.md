@@ -182,7 +182,7 @@ casualties = number killed + number wounded
 
 ### Why this visualization is useful
 
-It helps identify:
+**It helps identify:**
 
 * Common attack-target combinations
 * Frequently targeted sectors
