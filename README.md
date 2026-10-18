@@ -70,7 +70,7 @@ path = kagglehub.dataset_download("START-UMD/gtd")
 
 # 🧹 Data Preparation
 
-The notebook performs several preprocessing steps before visualization.
+**The notebook performs several preprocessing steps before visualization.**
 
 ### Data Cleaning
 
