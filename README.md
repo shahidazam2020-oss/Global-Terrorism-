@@ -238,7 +238,7 @@ The map provides:
 * South Yemen
 * North Yemen
 
-This improves the geographical representation of historical records.
+**This improves the geographical representation of historical records.**
 
 ---
 
