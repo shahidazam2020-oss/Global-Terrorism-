@@ -134,7 +134,7 @@ casualties = number killed + number wounded
 * Terrorist organization
 
 **Purpose:**
-To investigate how casualty levels vary between different methods of attack.
+**To investigate how casualty levels vary between different methods of attack.**
 
 ---
 
