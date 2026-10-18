@@ -142,7 +142,7 @@ casualties = number killed + number wounded
 
 **The project analyzes the number of terrorism incidents recorded for each year.**
 
-This visualization helps identify:
+**This visualization helps identify:**
 
 * Periods of increasing activity
 * Periods of decreasing activity
