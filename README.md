@@ -140,7 +140,7 @@ casualties = number killed + number wounded
 
 ## 📅 4. Terrorism Incidents Over Time
 
-The project analyzes the number of terrorism incidents recorded for each year.
+**The project analyzes the number of terrorism incidents recorded for each year.**
 
 This visualization helps identify:
 
