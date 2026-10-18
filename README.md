@@ -226,7 +226,7 @@ The map provides:
 
 Country names are converted into **ISO Alpha-3 codes** to improve geographic compatibility.
 
-The project also includes manual mappings for historical or differently named countries such as:
+**The project also includes manual mappings for historical or differently named countries such as:**
 
 * Soviet Union
 * Yugoslavia
