@@ -264,7 +264,7 @@ Z → Casualties
 * Geographic region
 * Human casualties
 
-It demonstrates the use of advanced interactive visualization techniques for multidimensional datasets.
+**It demonstrates the use of advanced interactive visualization techniques for multidimensional datasets.**
 
 ---
 
