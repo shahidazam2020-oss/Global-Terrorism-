@@ -64,7 +64,7 @@ path = kagglehub.dataset_download("START-UMD/gtd")
 * Attack success
 * And other incident-related attributes
 
-The project selects relevant attributes from the original dataset before performing visualization and analysis.
+**The project selects relevant attributes from the original dataset before performing visualization and analysis.**
 
 ---
 
