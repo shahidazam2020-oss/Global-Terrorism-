@@ -164,7 +164,7 @@ casualties = number killed + number wounded
 
 ## 📈 6. Attack Type Trends Over Time
 
-The project goes beyond a simple frequency comparison by examining how different attack types change over time.
+*The project goes beyond a simple frequency comparison by examining how different attack types change over time.*
 
 Multiple attack categories are plotted across the years, allowing trends to be compared.
 
