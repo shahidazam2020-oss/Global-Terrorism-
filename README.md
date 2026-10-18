@@ -280,7 +280,7 @@ Therefore, comparing:
 
 **Incident count vs. casualty count**
 
-provides a more complete understanding of terrorism-related impact.
+**provides a more complete understanding of terrorism-related impact.**
 
 ---
 
