@@ -295,7 +295,7 @@ The final visualization uses geographical coordinates to create a **casualty-den
 * Casualties
 * Map-based density visualization
 
-It identifies geographical areas where incidents with higher casualty levels are concentrated.
+**It identifies geographical areas where incidents with higher casualty levels are concentrated.**
 
 This provides a more detailed spatial perspective than country-level maps alone.
 
