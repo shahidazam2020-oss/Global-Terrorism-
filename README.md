@@ -45,7 +45,7 @@ import kagglehub
 path = kagglehub.dataset_download("START-UMD/gtd")
 ```
 
-The dataset contains information about terrorism incidents, including:
+**The dataset contains information about terrorism incidents, including:**
 
 * Year
 * Month
