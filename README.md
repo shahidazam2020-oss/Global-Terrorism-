@@ -19,7 +19,7 @@ The analysis includes both **static and interactive visualizations**, allowing u
 
 # 🎯 Project Objectives
 
-The main objectives of this project are to:
+**The main objectives of this project are to:**
 
 * 🌍 Analyze the geographical distribution of terrorism incidents
 * 📅 Examine terrorism incidents across different years
