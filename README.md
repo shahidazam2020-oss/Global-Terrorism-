@@ -168,7 +168,7 @@ casualties = number killed + number wounded
 
 *Multiple attack categories are plotted across the years, allowing trends to be compared.*
 
-This provides a deeper understanding of how the nature of terrorism incidents has changed over the historical period covered by the dataset.
+*This provides a deeper understanding of how the nature of terrorism incidents has changed over the historical period covered by the dataset.*
 
 ---
 
