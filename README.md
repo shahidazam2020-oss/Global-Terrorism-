@@ -189,7 +189,7 @@ casualties = number killed + number wounded
 * Relationships between attack methods and targets
 * Areas with relatively high incident concentrations
 
-This is one of the most useful visualizations in the project for discovering relationships between categorical variables.
+**This is one of the most useful visualizations in the project for discovering relationships between categorical variables.**
 
 ---
 
