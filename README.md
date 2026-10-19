@@ -545,6 +545,7 @@ This project demonstrates practical skills in:
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://github.com/shahidazam2020-oss">
+<img src="https://img.shields.io/badge/💻%20GitHub-Profile-black?style=for-the-badge&logo=github">
 
 
 ---
