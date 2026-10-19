@@ -405,7 +405,7 @@ using:
 
 ### 4️⃣ Run the Notebook
 
-Run the cells sequentially to reproduce the data cleaning process and visualizations.
+**Run the cells sequentially to reproduce the data cleaning process and visualizations.**
 
 > **Note:** Some original notebook cells use local Windows paths for shapefiles and exported images. These paths should be updated if the project is executed on another computer.
 
