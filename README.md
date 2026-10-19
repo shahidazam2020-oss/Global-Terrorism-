@@ -6,6 +6,16 @@
 </p>
 
 ---
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Face%20Analysis-8A2BE2?style=for-the-badge)
+
+</p>
+
 
 ## 📌 Project Overview
 
