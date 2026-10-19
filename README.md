@@ -522,7 +522,7 @@ This project demonstrates practical skills in:
 **Python • Data Visualization • Exploratory Data Analysis • Pandas • NumPy • Matplotlib • Seaborn • Plotly • GeoPandas • Data Analytics • Geospatial Visualization**
 
 ---
-
+# 🤝 Connect With Me
 ## 📜 Disclaimer
 
 This project is an **academic data visualization and exploratory analysis project** based on the Global Terrorism Database. The visualizations are intended to demonstrate data-analysis and visualization techniques and should not be interpreted as causal conclusions about terrorism or individual countries.
