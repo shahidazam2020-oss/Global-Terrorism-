@@ -439,7 +439,7 @@ The project investigates four major dimensions of the GTD data:
 
 # 🎓 Learning Outcomes
 
-Through this project, the following practical skills are demonstrated:
+**Through this project, the following practical skills are demonstrated:**
 
 * Data preprocessing with Pandas
 * Exploratory Data Analysis (EDA)
