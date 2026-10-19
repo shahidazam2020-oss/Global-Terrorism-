@@ -529,6 +529,7 @@ This project demonstrates practical skills in:
 </a>
     <a href="https://www.linkedin.com/in/shahid-azam-mughal-787b58235">
             <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+        </a>
 
 
 ## 📜 Disclaimer
