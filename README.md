@@ -549,7 +549,7 @@ This project demonstrates practical skills in:
 </a>
 <a href="https://github.com/shahidazam2020-oss?tab=repositories">
 <img src="https://img.shields.io/badge/📂%20Repositories-Explore-blue?style=for-the-badge&logo=github">
-
+</p>
 
 ---
 # ⭐ Support
