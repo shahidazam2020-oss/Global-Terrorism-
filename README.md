@@ -498,7 +498,7 @@ Use Plotly to explore data dynamically.
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 About Us
 
 **Shahid Azam**
 
