@@ -502,6 +502,9 @@ Use Plotly to explore data dynamically.
 
 **Shahid Azam**
 
+**MS Computer Science Student**
+**Specialization in Artificial Intelligence**
+
 This project demonstrates practical skills in:
 
 **Python • Data Visualization • Exploratory Data Analysis • Pandas • NumPy • Matplotlib • Seaborn • Plotly • GeoPandas • Data Analytics • Geospatial Visualization**
