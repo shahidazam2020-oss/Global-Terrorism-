@@ -508,6 +508,9 @@ Use Plotly to explore data dynamically.
 Institute of Management Sciences, Peshawar, Pakistan
 I enjoy building complete software systems—from networking and operating system concepts to backend architecture, machine learning, and distributed systems.
 
+- 🎓 **Degree / Field:** MS in Computer Science (Specialization in Artificial Intelligence)
+
+
 This project demonstrates practical skills in:
 
 **Python • Data Visualization • Exploratory Data Analysis • Pandas • NumPy • Matplotlib • Seaborn • Plotly • GeoPandas • Data Analytics • Geospatial Visualization**
