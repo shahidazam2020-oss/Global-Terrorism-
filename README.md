@@ -515,7 +515,7 @@ I enjoy building complete software systems—from networking and operating syste
 - <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="18" height="18" valign="middle" /> WhatsApp: <a href="https://wa.me/+923412772594" target="_blank">Chat on WhatsApp</a>
 
 ---
-
+📊 Data Analysis • 🔬 Research • 🤖 Machine Learning • 🔐 Cybersecurity • 🌐 IoT
 
 This project demonstrates practical skills in:
 
