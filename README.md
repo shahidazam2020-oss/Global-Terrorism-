@@ -1,53 +1,64 @@
+<div align="center">
+
 # 🌍 Global Terrorism Data Visualization & Analysis
 
-<p align="center">
-  <b>📊 Interactive Data Visualization Project using Python</b><br>
-  <i>Exploring global terrorism incidents, casualties, attack types, targets, regions, and geographical patterns</i>
+### Exploring Global Terrorism Patterns Through Python, Data Analytics & Geospatial Visualization
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas">
+  <img src="https://img.shields.io/badge/Visualization-Plotly%20%7C%20Matplotlib-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Geospatial-GeoPandas-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Project-Exploratory%20Data%20Analysis-purple?style=for-the-badge">
 </p>
+
+<p>
+  <a href="#overview">Overview</a> •
+  <a href="#dataset">Dataset</a> •
+  <a href="#methodology">Methodology</a> •
+  <a href="#visualizations">Visualizations</a> •
+  <a href="#technology-stack">Technology</a> •
+  <a href="#installation">Installation</a>
+</p>
+
+**Transforming historical terrorism data into meaningful analytical insights through interactive charts, geographical maps, statistical analysis, and advanced visualization techniques.**
+
+</div>
 
 ---
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PySide6](https://img.shields.io/badge/PySide6-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![AI](https://img.shields.io/badge/AI-Face%20Analysis-8A2BE2?style=for-the-badge)
-
-</p>
-
 
 ## 📌 Project Overview
 
-This project presents a comprehensive **data visualization and exploratory analysis of global terrorism incidents** using the **Global Terrorism Database (GTD)**.
+This project presents an exploratory data analysis and visualization of global terrorism incidents using the **Global Terrorism Database (GTD)**.
 
-The notebook transforms a large-scale terrorism dataset into meaningful visual insights using **Python-based data analysis and visualization techniques**. The project focuses on understanding the distribution, trends, geographical concentration, attack methods, target types, and casualties associated with terrorism incidents.
+Developed with Python, the project explores historical terrorism patterns across countries, regions, years, attack types, target categories, and casualty distributions.
 
-The analysis includes both **static and interactive visualizations**, allowing users to explore complex patterns in the data through charts, maps, heatmaps, and 3D graphics.
+The notebook combines data cleaning, preprocessing, feature selection, statistical visualization, and geospatial analysis to transform a large dataset into understandable visual insights.
 
----
+It includes both static and interactive visualizations, enabling users to explore complex relationships within the dataset.
 
-# 🎯 Project Objectives
+### 🎯 Main Objectives
 
-**The main objectives of this project are to:**
-
-* 🌍 Analyze the geographical distribution of terrorism incidents
-* 📅 Examine terrorism incidents across different years
-* ⚔️ Identify the most common attack types
-* 🎯 Analyze different target types
-* 💀 Investigate casualties associated with terrorism attacks
-* 🗺️ Visualize incidents using geographical maps
-* 📊 Compare countries based on the number of incidents
-* 🔥 Identify areas with high casualty density
-* 📈 Explore attack trends over time
-* 🔗 Analyze relationships between attack types and target types
-* 🧊 Demonstrate advanced 3D data visualization
+- 🌍 Explore the geographical distribution of terrorism incidents.
+- 📅 Analyze historical terrorism trends across different years.
+- ⚔️ Identify frequently recorded attack types.
+- 🎯 Examine different target categories.
+- 💀 Investigate casualties associated with recorded incidents.
+- 🗺️ Visualize global incident distributions using geographical maps.
+- 📊 Compare countries by incident frequency.
+- 🔥 Examine geographical casualty concentrations.
+- 📈 Analyze changes in attack patterns over time.
+- 🧊 Demonstrate multidimensional and 3D data visualization.
 
 ---
 
-# 📂 Dataset
+## 📂 Dataset
 
-The project uses the **Global Terrorism Database (GTD)**, downloaded programmatically using KaggleHub.
+### Global Terrorism Database (GTD)
+
+The project uses the Global Terrorism Database, accessed through KaggleHub.
+
+**Dataset source:** START-UMD / Global Terrorism Database
 
 ```python
 import kagglehub
@@ -55,509 +66,407 @@ import kagglehub
 path = kagglehub.dataset_download("START-UMD/gtd")
 ```
 
-**The dataset contains information about terrorism incidents, including:**
+The dataset contains incident-level information, including:
 
-* Year
-* Month
-* Day
-* Country
-* Region
-* Attack type
-* Target type
-* Terrorist group
-* Number killed
-* Number wounded
-* Weapon type
-* Property damage
-* Suicide attacks
-* International characteristics
-* Attack success
-* And other incident-related attributes
+| Category | Example Attributes |
+|---|---|
+| Time | Year, Month, Day |
+| Geography | Country, Region, Latitude, Longitude |
+| Attack Information | Attack Type, Weapon Type |
+| Target Information | Target Type |
+| Organizations | Terrorist Group |
+| Human Impact | Number Killed, Number Wounded |
+| Incident Characteristics | Suicide Attack, Successful Attack |
+| Property Impact | Property Damage |
 
-**The project selects relevant attributes from the original dataset before performing visualization and analysis.**
+The notebook selects relevant attributes for exploratory analysis and visualization.
 
 ---
 
-# 🧹 Data Preparation
+## 🧹 Data Preprocessing & Preparation
 
-**The notebook performs several preprocessing steps before visualization.**
+Before generating visualizations, the dataset undergoes several preparation steps.
 
 ### Data Cleaning
 
-The project:
+- Load the dataset using Pandas.
+- Inspect missing values.
+- Select relevant columns.
+- Handle missing casualty values.
+- Create a cleaned DataFrame.
+- Optimize numerical data types.
+- Prepare variables for visualization.
 
-* Loads the GTD dataset using Pandas
-* Examines missing values
-* Selects relevant variables
-* Handles missing casualty values
-* Creates a cleaned dataframe
-* Converts numerical columns to smaller data types to reduce memory usage
-* Creates a new **casualties** variable
+### Casualty Calculation
 
-**The casualty variable is calculated as:**
+The project combines fatalities and injuries into a single casualty measure:
 
 ```python
-casualties = number killed + number wounded
+casualties = number_killed + number_wounded
 ```
 
-**This provides a combined measure of the human impact of an incident.**
+This variable supports comparisons of the human impact of recorded incidents.
+
+### Feature Selection
+
+Relevant attributes are selected according to the analytical objectives, reducing unnecessary data and simplifying visualization.
 
 ---
 
-# 📊 Visualizations
+## 🔬 Analytical Methodology
 
-## 🥇 1. Top 20 Countries by Terrorism Incidents
-
-**A horizontal interactive bar chart is used to identify countries with the highest number of recorded terrorism incidents.**
-
-### Visualization highlights:
-
-* Country-level comparison
-* Number of incidents
-* Interactive tooltips
-* Ranked presentation
-* Color intensity based on incident count
-
-**Purpose:**
-**This visualization makes it easy to compare the countries with the largest numbers of recorded incidents.**
-
----
-
-## 📉 2. Countries with the Lowest Number of Incidents
-
-**The project also visualizes countries with relatively low numbers of recorded terrorism incidents.**
-
-**This provides a contrasting view to the top-country analysis and demonstrates how incident frequency varies across countries.**
-
----
-
-## 💀 3. Casualties by Attack Type
-
-**A strip/scatter-style visualization is used to analyze casualties associated with different attack types.**
-
-**The visualization considers:**
-
-* Attack type
-* Total casualties
-* Country
-* Region
-* Terrorist organization
-
-**Purpose:**
-**To investigate how casualty levels vary between different methods of attack.**
-
----
-
-## 📅 4. Terrorism Incidents Over Time
-
-**The project analyzes the number of terrorism incidents recorded for each year.**
-
-**This visualization helps identify:**
-
-* Periods of increasing activity
-* Periods of decreasing activity
-* Long-term patterns
-* Changes in incident frequency
-
----
-
-## ⚔️ 5. Incidents by Attack Type
-
-**A bar chart compares the frequency of different attack methods.**
-
-**Examples of attack categories represented in the dataset include different forms of armed attacks, bombings, kidnappings, and other methods.**
-
-**Purpose:**
-**To determine which attack types occur most frequently within the dataset.**
-
----
-
-## 📈 6. Attack Type Trends Over Time
-
-*The project goes beyond a simple frequency comparison by examining how different attack types change over time.*
-
-*Multiple attack categories are plotted across the years, allowing trends to be compared.*
-
-*This provides a deeper understanding of how the nature of terrorism incidents has changed over the historical period covered by the dataset.*
-
----
-
-# 🔥 7. Attack Type vs Target Type Heatmap
-
-**A heatmap is created using a pivot table containing:**
-
-**Attack Type × Target Type**
-
-**The cells represent the number of incidents associated with each combination.**
-
-### Why this visualization is useful
-
-**It helps identify:**
-
-* Common attack-target combinations
-* Frequently targeted sectors
-* Relationships between attack methods and targets
-* Areas with relatively high incident concentrations
-
-**This is one of the most useful visualizations in the project for discovering relationships between categorical variables.**
-
----
-
-# 🌍 8. Global Terrorism Incident Map
-
-A geographical visualization is created using **GeoPandas** to display terrorism incidents by country.
-
-**Countries are shaded according to their number of recorded incidents.**
-
-### Technologies used
-
-* GeoPandas
-* Matplotlib
-* Geographic shapefiles
-
-**Purpose:**
-**To provide a visual representation of the global geographical distribution of terrorism incidents.**
-
----
-
-# 🗺️ 9. Interactive Choropleth Map
-
-An interactive **Plotly choropleth map** is also developed.
-
-**Countries are colored according to the number of terrorism incidents.**
-
-The map provides:
-
-* 🌍 Global geographical coverage
-* 🖱️ Interactive country information
-* 🎨 Continuous color scale
-* 📊 Incident intensity visualization
-* 🔎 Country-level exploration
-
-**Country names are converted into **ISO Alpha-3 codes** to improve geographic compatibility.**
-
-**The project also includes manual mappings for historical or differently named countries such as:**
-
-* Soviet Union
-* Yugoslavia
-* Czechoslovakia
-* East Germany
-* West Germany
-* Rhodesia
-* Zaire
-* South Yemen
-* North Yemen
-
-**This improves the geographical representation of historical records.**
-
----
-
-# 🧊 10. 3D Terrorism Visualization
-
-The project includes an advanced **3D scatter visualization** using Plotly.
-
-The visualization represents:
+The project follows a structured data analytics workflow.
 
 ```text
-X → Year
-Y → Region
-Z → Casualties
+             GLOBAL TERRORISM DATABASE
+                         │
+                         ▼
+                  DATA ACQUISITION
+                         │
+                         ▼
+                   DATA EXPLORATION
+                         │
+                         ▼
+                    DATA CLEANING
+                         │
+                         ▼
+                  DATA PREPROCESSING
+                         │
+                         ▼
+                   FEATURE SELECTION
+                         │
+                         ▼
+                EXPLORATORY DATA ANALYSIS
+                         │
+             ┌───────────┼───────────┐
+             ▼           ▼           ▼
+         TEMPORAL     GEOGRAPHIC   CATEGORICAL
+          ANALYSIS     ANALYSIS     ANALYSIS
+             │           │           │
+             └───────────┼───────────┘
+                         ▼
+                   DATA VISUALIZATION
+                         │
+                         ▼
+                 ANALYTICAL INSIGHTS
 ```
 
-** point represents terrorism-related observations, with casualty levels represented through marker properties.**
+---
 
-### Purpose
+## 📊 Visualizations & Analytical Insights
 
-**The 3D visualization provides another perspective for examining the relationship between:**
+The project includes a collection of static, interactive, geographical, and multidimensional visualizations.
 
-* Time
-* Geographic region
-* Human casualties
+### 1. 🥇 Top 20 Countries by Terrorism Incidents
 
-**It demonstrates the use of advanced interactive visualization techniques for multidimensional datasets.**
+An interactive horizontal bar chart compares the countries with the highest numbers of recorded terrorism incidents.
+
+**Highlights:**
+- Country-level comparison.
+- Ranked incident frequency.
+- Interactive tooltips.
+- Visual comparison of incident counts.
+
+### 2. 📉 Countries with the Lowest Number of Incidents
+
+A comparative visualization examines countries with relatively low recorded incident counts.
+
+This provides a contrasting perspective on the global distribution of incidents.
+
+### 3. 💀 Casualties by Attack Type
+
+A scatter/strip-style visualization explores casualty distributions across different attack categories.
+
+Analytical dimensions include:
+- Attack type.
+- Casualties.
+- Country.
+- Region.
+- Recorded organization.
+
+### 4. 📅 Global Terrorism Incidents Over Time
+
+A time-based analysis examines the historical frequency of recorded incidents.
+
+It helps explore:
+- Long-term trends.
+- Periods of increasing activity.
+- Periods of decreasing activity.
+- Changes in incident frequency.
+
+### 5. ⚔️ Incidents by Attack Type
+
+A bar chart compares the frequency of different recorded attack methods.
+
+This visualization helps identify the most frequently represented attack categories in the dataset.
+
+### 6. 📈 Attack Type Trends Over Time
+
+This visualization examines how different attack categories change throughout the historical period covered by the dataset.
+
+It provides a comparative view of temporal patterns across attack categories.
+
+### 7. 🔥 Attack Type vs. Target Type Heatmap
+
+A heatmap visualizes the relationship between attack categories and target categories.
+
+**Analytical dimensions:**
+
+`Attack Type × Target Type`
+
+It helps identify:
+- Common attack-target combinations.
+- Frequently represented target sectors.
+- Relationships between categorical variables.
+- Areas of higher incident frequency.
+
+### 8. 🌍 Global Terrorism Incident Map
+
+A geographical visualization uses GeoPandas and Matplotlib to represent terrorism incidents across countries.
+
+Countries are shaded according to recorded incident counts.
+
+**Technologies:**
+- GeoPandas
+- Matplotlib
+- Geographic shapefiles
+
+### 9. 🗺️ Interactive Choropleth Map
+
+An interactive Plotly map displays country-level incident distributions.
+
+**Features:**
+- Global geographical coverage.
+- Interactive country information.
+- Continuous color scales.
+- Country-level exploration.
+- ISO Alpha-3 country-code conversion.
+
+The notebook also includes manual country mappings to accommodate historical country names and geographical changes.
+
+### 10. 🧊 3D Terrorism Visualization
+
+An interactive 3D scatter visualization explores multiple dimensions of the dataset.
+
+| Dimension | Variable |
+|---|---|
+| X-axis | Year |
+| Y-axis | Region |
+| Z-axis | Casualties |
+
+This visualization provides a multidimensional perspective on historical, regional, and casualty-related patterns.
+
+### 11. 🔥 Casualty Density by Country
+
+A choropleth visualization aggregates casualties by country.
+
+Unlike incident-frequency maps, this analysis focuses on the combined number of people killed and wounded.
+
+It allows comparisons between incident frequency and casualty impact.
+
+### 12. 🌡️ Geographical Casualty Density Heatmap
+
+A geographical density visualization uses:
+- Latitude.
+- Longitude.
+- Casualty values.
+- Map-based density representation.
+
+It provides a spatial perspective on the distribution of recorded casualties.
 
 ---
 
-# 🔥 11. Casualty Density by Country
+## 🛠️ Technology Stack
 
-A second geographical visualization focuses on **total casualties rather than incident frequency**.
-
-The project aggregates casualties by country and visualizes them using a choropleth map.
-
-This is important because a country with fewer incidents can potentially have a high casualty impact.
-
-Therefore, comparing:
-
-**Incident count vs. casualty count**
-
-**provides a more complete understanding of terrorism-related impact.**
-
----
-
-# 🌡️ 12. Geographical Casualty Density Heatmap
-
-The final visualization uses geographical coordinates to create a **casualty-density heatmap**.
-
-**The visualization uses:**
-
-* Latitude
-* Longitude
-* Casualties
-* Map-based density visualization
-
-**It identifies geographical areas where incidents with higher casualty levels are concentrated.**
-
-This provides a more detailed spatial perspective than country-level maps alone.
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| Pandas | Data manipulation and cleaning |
+| NumPy | Numerical computation |
+| Matplotlib | Static visualizations |
+| Seaborn | Statistical visualization |
+| Plotly | Interactive charts and maps |
+| GeoPandas | Geospatial data processing |
+| PyCountry | Country-code conversion |
+| Scikit-learn | Label encoding |
+| KaggleHub | Dataset acquisition |
+| Jupyter Notebook | Development environment |
 
 ---
 
-# 🧰 Technologies Used
+## ⭐ Key Project Features
 
-| Technology          | Purpose                          |
-| ------------------- | -------------------------------- |
-| 🐍 Python           | Core programming language        |
-| 🐼 Pandas           | Data manipulation and analysis   |
-| 🔢 NumPy            | Numerical operations             |
-| 📊 Matplotlib       | Static visualization             |
-| 🎨 Seaborn          | Statistical visualization        |
-| 📈 Plotly           | Interactive visualizations       |
-| 🌍 GeoPandas        | Geographic data visualization    |
-| 🗺️ PyCountry       | Country-to-ISO code conversion   |
-| 🤖 Scikit-learn     | Label encoding for visualization |
-| 📓 Jupyter Notebook | Development environment          |
-| 📦 KaggleHub        | Dataset acquisition              |
+| Feature | Description |
+|---|---|
+| Data Cleaning | Missing-value inspection and preprocessing |
+| Exploratory Analysis | Investigation of historical and categorical patterns |
+| Statistical Visualization | Bar charts, scatter plots, and heatmaps |
+| Time-Series Analysis | Historical incident trends |
+| Geospatial Analysis | Country-level maps and geographical distributions |
+| Interactive Mapping | Plotly choropleth visualizations |
+| Advanced Visualization | Interactive 3D scatter plots |
+| Casualty Analysis | Examination of fatalities and injuries |
 
 ---
 
-# ⭐ Key Features
+## 📁 Repository Structure
 
-### 📊 Data Analysis
-
-* Missing-value analysis
-* Data cleaning
-* Feature selection
-* Data type optimization
-* Casualty calculation
-
-### 📈 Statistical Visualization
-
-* Bar charts
-* Scatter/strip plots
-* Line charts
-* Heatmaps
-
-### 🌍 Geographic Visualization
-
-* World maps
-* Choropleth maps
-* Casualty-density maps
-* Coordinate-based heatmaps
-
-### 🧊 Advanced Visualization
-
-* Interactive Plotly charts
-* 3D scatter visualization
-* Multidimensional data exploration
-
----
-
-# 📁 Project Structure
+The currently visible repository contains:
 
 ```text
-Global-Terrorism-Data-Visualization/
+Global-Terrorism-/
 │
-├── datavis_mid2025(1).ipynb
+├── README.md
 │
-├── images/
-│   ├── incidents_bargraph_bycountry.png
-│   ├── low_country_terrorism.png
-│   ├── scatter_casualvsattack.png
-│   ├── subplots_year_attype.png
-│   ├── heatmap_attckvstarget.png
-│   ├── incidents_country.png
-│   ├── 3dplot.png
-│   ├── chloropeth_country_casualties.png
-│   └── contour.png
-│
-└── README.md
+└── datavis_mid2025.ipynb
 ```
+
+The README also documents visualization image filenames and a project notebook reference using a slightly different filename. Verify those paths and filenames before adding them to the repository structure.
 
 ---
 
-# 🚀 How to Run the Project
+## 🚀 Installation & Execution
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/shahidazam2020-oss/Global-Terrorism-.git
 ```
 
-### 2️⃣ Install Required Libraries
+### 2. Navigate to the Project
+
+```bash
+cd Global-Terrorism-
+```
+
+### 3. Install Dependencies
 
 ```bash
 pip install pandas numpy matplotlib seaborn plotly geopandas pycountry kagglehub scikit-learn
 ```
 
-### 3️⃣ Open the Notebook
+### 4. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+### 5. Open the Project Notebook
 
 Open:
 
 ```text
-datavis_mid2025(1).ipynb
+datavis_mid2025.ipynb
 ```
 
-using:
+### 6. Execute the Notebook
 
-* Jupyter Notebook
-* JupyterLab
-* Visual Studio Code
-* Google Colab
+Run the notebook cells sequentially to reproduce the data preparation, exploratory analysis, and visualizations.
 
-### 4️⃣ Run the Notebook
-
-**Run the cells sequentially to reproduce the data cleaning process and visualizations.**
-
-> **Note:** Some original notebook cells use local Windows paths for shapefiles and exported images. These paths should be updated if the project is executed on another computer.
+> **Note:** Some notebook cells use local Windows paths for geographic shapefiles and exported images. Update these paths when running the project on another computer.
 
 ---
 
-# 📌 Major Analytical Areas
+## 🎓 Learning Outcomes
 
-The project investigates four major dimensions of the GTD data:
+This project demonstrates practical experience in:
 
-```text
-                 🌍 GLOBAL TERRORISM ANALYSIS
-                           │
-        ┌──────────────────┼──────────────────┐
-        │                  │                  │
-     📅 TIME           🌍 LOCATION         ⚔️ ATTACK
-        │                  │                  │
-   Yearly Trends      Countries          Attack Types
-   Historical         Regions            Target Types
-   Patterns           Maps               Weapons
-        │                  │                  │
-        └──────────────────┼──────────────────┘
-                           │
-                      💀 CASUALTIES
-                           │
-                 Killed + Wounded
-                           │
-                 Density & Distribution
-```
+- Python programming.
+- Data cleaning and preprocessing.
+- Exploratory Data Analysis (EDA).
+- Pandas and NumPy.
+- Statistical data visualization.
+- Interactive visualization with Plotly.
+- Geospatial data processing.
+- Choropleth mapping.
+- Heatmap construction.
+- 3D visualization.
+- Time-series exploration.
+- Categorical data analysis.
+- Multidimensional data exploration.
 
 ---
 
-# 🎓 Learning Outcomes
+## 🌐 Potential Applications
 
-**Through this project, the following practical skills are demonstrated:**
+The analytical and visualization techniques demonstrated in this project can be adapted for:
 
-* Data preprocessing with Pandas
-* Exploratory Data Analysis (EDA)
-* Handling missing values
-* Feature selection
-* Data type optimization
-* Statistical visualization
-* Interactive visualization
-* Geographic data analysis
-* Choropleth mapping
-* Heatmap construction
-* 3D data visualization
-* Time-series analysis
-* Categorical data analysis
-* Multidimensional data exploration
+- Geographic risk analysis.
+- Historical event analysis.
+- Geospatial intelligence dashboards.
+- Public safety analytics.
+- Academic research.
+- Exploratory data analysis.
+- Interactive analytical dashboards.
+
+**Disclaimer:** These visualizations describe patterns in the available dataset. They do not establish causation, predict future incidents, or provide a complete measure of real-world security conditions.
 
 ---
 
-# 💡 Applications
+## 🔭 Future Improvements
 
-The visualization techniques demonstrated in this project can be adapted for:
+Potential extensions include:
 
-* 🌍 Geographic risk analysis
-* 📊 Historical event analysis
-* 🗺️ Geospatial intelligence dashboards
-* 📈 Public safety analytics
-* 🔎 Exploratory data analysis
-* 🎓 Academic research
-* 📊 Business intelligence
-* 🌐 Interactive analytical dashboards
-
-> **Important:** The visualizations are intended for analytical and educational purposes. They describe patterns present in the dataset and should not be interpreted as causal explanations.
-
----
-
-# 🏆 Project Highlights
-
-<p align="center">
-
-**🌍 Global Analysis**
-Analyze terrorism incidents across countries and regions.
-
-**📊 Rich Visualizations**
-Use bar charts, line charts, scatter plots, heatmaps, and maps.
-
-**🗺️ Geospatial Analysis**
-Visualize incident and casualty concentrations geographically.
-
-**🧊 3D Exploration**
-Explore the relationship between year, region, and casualties.
-
-**⚡ Interactive Charts**
-Use Plotly to explore data dynamically.
-
-</p>
+- Develop an interactive analytical dashboard.
+- Add more detailed statistical summaries.
+- Include country and region comparison filters.
+- Improve missing-data handling.
+- Add year-range filtering.
+- Integrate additional geospatial visualization techniques.
+- Include correlation analysis.
+- Add downloadable analytical reports.
+- Improve reproducibility through a requirements file.
+- Add screenshots of the actual notebook visualizations.
 
 ---
 
-# 👨‍💻 About Us
+## 👨‍💻 About the Developer
 
-**Shahid Azam**
+### Shahid Azam
 
-**MS Computer Science Student**
-**Specialization in Artificial Intelligence**
+**MS Computer Science | Artificial Intelligence**
 
 Institute of Management Sciences, Peshawar, Pakistan
-I enjoy building complete software systems—from networking and operating system concepts to backend architecture, machine learning, and distributed systems.
 
-- 🎓 **Degree / Field:** MS in Computer Science (Specialization in Artificial Intelligence)
-- 🏆 **Achievements:** Designed and executed 30+ machine learning and data visualization projects delivering actionable insights
-- 🎯 **Focus Areas:** Data Visualization, AI/ML, Big Data Mining
-- 📬 **Contact:** shahidazam2020@gmail.com
-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="18" height="18" valign="middle" /> WhatsApp: <a href="https://wa.me/+923412772594" target="_blank">Chat on WhatsApp</a>
+Interested in Artificial Intelligence, Machine Learning, Data Visualization, and research-oriented software development.
 
----
-📊 Data Analysis • 🔬 Research • 🤖 Machine Learning • 🔐 Cybersecurity • 🌐 IoT
+### Connect With Me
 
-This project demonstrates practical skills in:
-
-**Python • Data Visualization • Exploratory Data Analysis • Pandas • NumPy • Matplotlib • Seaborn • Plotly • GeoPandas • Data Analytics • Geospatial Visualization**
+- 💻 GitHub: [shahidazam2020-oss](https://github.com/shahidazam2020-oss)
+- 🔗 LinkedIn: [Shahid Azam](https://www.linkedin.com/in/shahid-azam-mughal-787b58235/)
+- 📚 ResearchGate: [Shahid Azam](https://www.researchgate.net/profile/Shahid-Azam-5)
+- 🆔 ORCID: [0009-0001-6825-8863](https://orcid.org/0009-0001-6825-8863)
+- 📧 Email: shahidazam2020@gmail.com
 
 ---
-# 🤝 Connect With Me
-<p align="center">
-<a href="https://github.com/shahidazam2020-oss">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-    <a href="https://www.linkedin.com/in/shahid-azam-mughal-787b58235">
-            <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-        </a>
-  
-<a href="mailto:shahidazam2020@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/shahidazam2020-oss">
-<img src="https://img.shields.io/badge/💻%20GitHub-Profile-black?style=for-the-badge&logo=github">
-</a>
-<a href="https://github.com/shahidazam2020-oss?tab=repositories">
-<img src="https://img.shields.io/badge/📂%20Repositories-Explore-blue?style=for-the-badge&logo=github">
-</p>
-</a>
 
+## 🤝 Contributions
+
+Suggestions, improvements, and contributions are welcome.
+
+1. Fork this repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
 
 ---
-# ⭐ Support
-Your feedback, suggestions, and contributions are welcome.
-If you find this repository useful for learning Machine Learning, consider giving it a ⭐.
 
 ## 📜 Disclaimer
 
-This project is an **academic data visualization and exploratory analysis project** based on the Global Terrorism Database. The visualizations are intended to demonstrate data-analysis and visualization techniques and should not be interpreted as causal conclusions about terrorism or individual countries.
+This repository is an academic data visualization and exploratory analysis project based on the Global Terrorism Database.
+
+The project is intended for educational and analytical purposes. Its visualizations should not be interpreted as causal conclusions about terrorism, individual countries, communities, or populations.
+
+---
+
+<div align="center">
+
+## ⭐ Support This Project
+
+If you find this project useful, consider giving the repository a star.
+
+**Explore • Analyze • Visualize • Learn**
+
+🌍 *Turning Historical Data into Meaningful Visual Insights*
+
+</div>
