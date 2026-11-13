@@ -175,7 +175,7 @@ casualties = number_killed + number_wounded
 
 ### 3. 💀 Casualties by Attack Type
 
-A scatter/strip-style visualization explores casualty distributions across different attack categories.
+**A scatter/strip-style visualization explores casualty distributions across different attack categories.**
 
 Analytical dimensions include:
 - Attack type.
