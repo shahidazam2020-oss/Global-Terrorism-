@@ -99,7 +99,7 @@ path = kagglehub.dataset_download("START-UMD/gtd")
 
 ### Casualty Calculation
 
-The project combines fatalities and injuries into a single casualty measure:
+**The project combines fatalities and injuries into a single casualty measure:**
 
 ```python
 casualties = number_killed + number_wounded
