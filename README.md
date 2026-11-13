@@ -56,7 +56,7 @@ This project presents an exploratory data analysis and visualization of global t
 
 ### Global Terrorism Database (GTD)
 
-The project uses the Global Terrorism Database, accessed through KaggleHub.
+**The project uses the Global Terrorism Database, accessed through KaggleHub.**
 
 **Dataset source:** START-UMD / Global Terrorism Database
 
