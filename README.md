@@ -246,7 +246,7 @@ It helps identify:
 
 ### 10. 🧊 3D Terrorism Visualization
 
-An interactive 3D scatter visualization explores multiple dimensions of the dataset.
+**An interactive 3D scatter visualization explores multiple dimensions of the dataset.**
 
 | Dimension | Variable |
 |---|---|
