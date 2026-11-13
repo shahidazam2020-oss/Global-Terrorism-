@@ -171,7 +171,7 @@ casualties = number_killed + number_wounded
 
 **A comparative visualization examines countries with relatively low recorded incident counts.**
 
-This provides a contrasting perspective on the global distribution of incidents.
+**This provides a contrasting perspective on the global distribution of incidents.**
 
 ### 3. 💀 Casualties by Attack Type
 
