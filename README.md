@@ -233,7 +233,7 @@ It helps identify:
 
 ### 9. 🗺️ Interactive Choropleth Map
 
-An interactive Plotly map displays country-level incident distributions.
+**An interactive Plotly map displays country-level incident distributions.**
 
 **Features:**
 - Global geographical coverage.
