@@ -258,7 +258,7 @@ It helps identify:
 
 ### 11. 🔥 Casualty Density by Country
 
-A choropleth visualization aggregates casualties by country.
+**A choropleth visualization aggregates casualties by country.**
 
 Unlike incident-frequency maps, this analysis focuses on the combined number of people killed and wounded.
 
