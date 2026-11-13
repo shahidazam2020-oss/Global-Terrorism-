@@ -202,7 +202,7 @@ It helps explore:
 
 ### 6. 📈 Attack Type Trends Over Time
 
-This visualization examines how different attack categories change throughout the historical period covered by the dataset.
+**This visualization examines how different attack categories change throughout the historical period covered by the dataset.**
 
 It provides a comparative view of temporal patterns across attack categories.
 
