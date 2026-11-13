@@ -155,7 +155,7 @@ casualties = number_killed + number_wounded
 
 ## 📊 Visualizations & Analytical Insights
 
-The project includes a collection of static, interactive, geographical, and multidimensional visualizations.
+**The project includes a collection of static, interactive, geographical, and multidimensional visualizations.**
 
 ### 1. 🥇 Top 20 Countries by Terrorism Incidents
 
