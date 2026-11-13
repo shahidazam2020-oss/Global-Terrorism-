@@ -109,7 +109,7 @@ casualties = number_killed + number_wounded
 
 ### Feature Selection
 
-Relevant attributes are selected according to the analytical objectives, reducing unnecessary data and simplifying visualization.
+**Relevant attributes are selected according to the analytical objectives, reducing unnecessary data and simplifying visualization.**
 
 ---
 
