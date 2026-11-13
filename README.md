@@ -198,7 +198,7 @@ It helps explore:
 
 **A bar chart compares the frequency of different recorded attack methods.**
 
-This visualization helps identify the most frequently represented attack categories in the dataset.
+**This visualization helps identify the most frequently represented attack categories in the dataset.**
 
 ### 6. 📈 Attack Type Trends Over Time
 
