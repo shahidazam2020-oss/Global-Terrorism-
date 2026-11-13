@@ -186,7 +186,7 @@ Analytical dimensions include:
 
 ### 4. 📅 Global Terrorism Incidents Over Time
 
-A time-based analysis examines the historical frequency of recorded incidents.
+**A time-based analysis examines the historical frequency of recorded incidents.**
 
 It helps explore:
 - Long-term trends.
