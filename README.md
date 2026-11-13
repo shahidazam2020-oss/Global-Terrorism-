@@ -266,7 +266,7 @@ It helps identify:
 
 ### 12. 🌡️ Geographical Casualty Density Heatmap
 
-A geographical density visualization uses:
+**A geographical density visualization uses:**
 - Latitude.
 - Longitude.
 - Casualty values.
