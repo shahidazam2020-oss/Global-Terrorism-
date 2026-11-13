@@ -169,7 +169,7 @@ casualties = number_killed + number_wounded
 
 ### 2. 📉 Countries with the Lowest Number of Incidents
 
-A comparative visualization examines countries with relatively low recorded incident counts.
+**A comparative visualization examines countries with relatively low recorded incident counts.**
 
 This provides a contrasting perspective on the global distribution of incidents.
 
