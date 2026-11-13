@@ -242,7 +242,7 @@ It helps identify:
 - Country-level exploration.
 - ISO Alpha-3 country-code conversion.
 
-The notebook also includes manual country mappings to accommodate historical country names and geographical changes.
+**The notebook also includes manual country mappings to accommodate historical country names and geographical changes.**
 
 ### 10. 🧊 3D Terrorism Visualization
 
