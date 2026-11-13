@@ -79,7 +79,7 @@ path = kagglehub.dataset_download("START-UMD/gtd")
 | Incident Characteristics | Suicide Attack, Successful Attack |
 | Property Impact | Property Damage |
 
-The notebook selects relevant attributes for exploratory analysis and visualization.
+**The notebook selects relevant attributes for exploratory analysis and visualization.**
 
 ---
 
