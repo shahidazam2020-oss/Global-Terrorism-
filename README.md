@@ -204,7 +204,7 @@ It helps explore:
 
 **This visualization examines how different attack categories change throughout the historical period covered by the dataset.**
 
-It provides a comparative view of temporal patterns across attack categories.
+**It provides a comparative view of temporal patterns across attack categories.**
 
 ### 7. 🔥 Attack Type vs. Target Type Heatmap
 
