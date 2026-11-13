@@ -85,7 +85,7 @@ path = kagglehub.dataset_download("START-UMD/gtd")
 
 ## 🧹 Data Preprocessing & Preparation
 
-Before generating visualizations, the dataset undergoes several preparation steps.
+**Before generating visualizations, the dataset undergoes several preparation steps.**
 
 ### Data Cleaning
 
