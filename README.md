@@ -260,7 +260,7 @@ It helps identify:
 
 **A choropleth visualization aggregates casualties by country.**
 
-Unlike incident-frequency maps, this analysis focuses on the combined number of people killed and wounded.
+**Unlike incident-frequency maps, this analysis focuses on the combined number of people killed and wounded.**
 
 It allows comparisons between incident frequency and casualty impact.
 
