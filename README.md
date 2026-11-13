@@ -262,7 +262,7 @@ It helps identify:
 
 **Unlike incident-frequency maps, this analysis focuses on the combined number of people killed and wounded.**
 
-It allows comparisons between incident frequency and casualty impact.
+**It allows comparisons between incident frequency and casualty impact.**
 
 ### 12. 🌡️ Geographical Casualty Density Heatmap
 
