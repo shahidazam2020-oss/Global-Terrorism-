@@ -212,7 +212,7 @@ It helps explore:
 
 **Analytical dimensions:**
 
-`Attack Type × Target Type`
+**`Attack Type × Target Type`**
 
 It helps identify:
 - Common attack-target combinations.
