@@ -115,7 +115,7 @@ casualties = number_killed + number_wounded
 
 ## 🔬 Analytical Methodology
 
-The project follows a structured data analytics workflow.
+**The project follows a structured data analytics workflow.**
 
 ```text
              GLOBAL TERRORISM DATABASE
