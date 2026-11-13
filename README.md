@@ -105,7 +105,7 @@ path = kagglehub.dataset_download("START-UMD/gtd")
 casualties = number_killed + number_wounded
 ```
 
-This variable supports comparisons of the human impact of recorded incidents.
+**This variable supports comparisons of the human impact of recorded incidents.**
 
 ### Feature Selection
 
