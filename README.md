@@ -224,7 +224,7 @@ It helps identify:
 
 **A geographical visualization uses GeoPandas and Matplotlib to represent terrorism incidents across countries.**
 
-Countries are shaded according to recorded incident counts.
+**Countries are shaded according to recorded incident counts.**
 
 **Technologies:**
 - GeoPandas
