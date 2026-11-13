@@ -222,7 +222,7 @@ It helps identify:
 
 ### 8. 🌍 Global Terrorism Incident Map
 
-A geographical visualization uses GeoPandas and Matplotlib to represent terrorism incidents across countries.
+**A geographical visualization uses GeoPandas and Matplotlib to represent terrorism incidents across countries.**
 
 Countries are shaded according to recorded incident counts.
 
