@@ -66,7 +66,7 @@ import kagglehub
 path = kagglehub.dataset_download("START-UMD/gtd")
 ```
 
-The dataset contains incident-level information, including:
+**The dataset contains incident-level information, including:**
 
 | Category | Example Attributes |
 |---|---|
