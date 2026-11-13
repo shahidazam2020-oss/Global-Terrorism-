@@ -196,7 +196,7 @@ It helps explore:
 
 ### 5. ⚔️ Incidents by Attack Type
 
-A bar chart compares the frequency of different recorded attack methods.
+**A bar chart compares the frequency of different recorded attack methods.**
 
 This visualization helps identify the most frequently represented attack categories in the dataset.
 
