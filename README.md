@@ -208,7 +208,7 @@ It helps explore:
 
 ### 7. 🔥 Attack Type vs. Target Type Heatmap
 
-A heatmap visualizes the relationship between attack categories and target categories.
+**A heatmap visualizes the relationship between attack categories and target categories.**
 
 **Analytical dimensions:**
 
