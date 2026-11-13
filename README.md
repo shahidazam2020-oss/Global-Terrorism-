@@ -31,7 +31,7 @@
 
 This project presents an exploratory data analysis and visualization of global terrorism incidents using the **Global Terrorism Database (GTD)**.
 
-Developed with Python, the project explores historical terrorism patterns across countries, regions, years, attack types, target categories, and casualty distributions.
+**Developed with Python, the project explores historical terrorism patterns across countries, regions, years, attack types, target categories, and casualty distributions.**
 
 The notebook combines data cleaning, preprocessing, feature selection, statistical visualization, and geospatial analysis to transform a large dataset into understandable visual insights.
 
