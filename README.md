@@ -254,7 +254,7 @@ It helps identify:
 | Y-axis | Region |
 | Z-axis | Casualties |
 
-This visualization provides a multidimensional perspective on historical, regional, and casualty-related patterns.
+**This visualization provides a multidimensional perspective on historical, regional, and casualty-related patterns.**
 
 ### 11. 🔥 Casualty Density by Country
 
