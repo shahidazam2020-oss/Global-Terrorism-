@@ -35,7 +35,7 @@ This project presents an exploratory data analysis and visualization of global t
 
 **The notebook combines data cleaning, preprocessing, feature selection, statistical visualization, and geospatial analysis to transform a large dataset into understandable visual insights.**
 
-It includes both static and interactive visualizations, enabling users to explore complex relationships within the dataset.
+**It includes both static and interactive visualizations, enabling users to explore complex relationships within the dataset.**
 
 ### 🎯 Main Objectives
 
