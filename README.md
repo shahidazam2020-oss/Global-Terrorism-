@@ -314,7 +314,7 @@ It helps identify:
 
 ## 📁 Repository Structure
 
-The currently visible repository contains:
+**The currently visible repository contains:**
 
 ```text
 Global-Terrorism-/
