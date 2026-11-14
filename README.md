@@ -458,7 +458,7 @@ Interested in Artificial Intelligence, Machine Learning, Data Visualization, and
 
 **This repository is an academic data visualization and exploratory analysis project based on the Global Terrorism Database.**
 
-The project is intended for educational and analytical purposes. Its visualizations should not be interpreted as causal conclusions about terrorism, individual countries, communities, or populations.
+**The project is intended for educational and analytical purposes. Its visualizations should not be interpreted as causal conclusions about terrorism, individual countries, communities, or populations.**
 
 ---
 
