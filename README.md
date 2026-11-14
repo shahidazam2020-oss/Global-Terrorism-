@@ -466,7 +466,7 @@ Interested in Artificial Intelligence, Machine Learning, Data Visualization, and
 
 ## ⭐ Support This Project
 
-If you find this project useful, consider giving the repository a star.
+**If you find this project useful, consider giving the repository a star.**
 
 **Explore • Analyze • Visualize • Learn**
 
