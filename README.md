@@ -408,7 +408,7 @@ This project demonstrates practical experience in:
 
 ## 🔭 Future Improvements
 
-Potential extensions include:
+**Potential extensions include:**
 
 - Develop an interactive analytical dashboard.
 - Add more detailed statistical summaries.
