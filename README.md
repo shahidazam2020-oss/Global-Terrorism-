@@ -25,6 +25,8 @@
 
 </div>
 
+[![GitHub Stars](https://img.shields.io/github/stars/shahidazam2020-oss/Data-Visualization?style=social)](https://github.com/shahidazam2020-oss/Data-Visualization/stargazers)
+
 ---
 
 ## 📌 Project Overview
