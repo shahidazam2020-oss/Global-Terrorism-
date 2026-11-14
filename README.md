@@ -392,7 +392,7 @@ This project demonstrates practical experience in:
 
 ## 🌐 Potential Applications
 
-The analytical and visualization techniques demonstrated in this project can be adapted for:
+**The analytical and visualization techniques demonstrated in this project can be adapted for:**
 
 - Geographic risk analysis.
 - Historical event analysis.
