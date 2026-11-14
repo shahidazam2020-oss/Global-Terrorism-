@@ -364,7 +364,7 @@ datavis_mid2025.ipynb
 
 ### 6. Execute the Notebook
 
-Run the notebook cells sequentially to reproduce the data preparation, exploratory analysis, and visualizations.
+**Run the notebook cells sequentially to reproduce the data preparation, exploratory analysis, and visualizations.**
 
 > **Note:** Some notebook cells use local Windows paths for geographic shapefiles and exported images. Update these paths when running the project on another computer.
 
