@@ -372,7 +372,7 @@ datavis_mid2025.ipynb
 
 ## 🎓 Learning Outcomes
 
-This project demonstrates practical experience in:
+**This project demonstrates practical experience in:**
 
 - Python programming.
 - Data cleaning and preprocessing.
