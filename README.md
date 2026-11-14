@@ -445,7 +445,7 @@ Interested in Artificial Intelligence, Machine Learning, Data Visualization, and
 
 ## 🤝 Contributions
 
-Suggestions, improvements, and contributions are welcome.
+**Suggestions, improvements, and contributions are welcome.**
 
 1. Fork this repository.
 2. Create a new branch.
