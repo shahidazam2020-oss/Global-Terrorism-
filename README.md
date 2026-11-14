@@ -275,7 +275,7 @@ It helps identify:
 - Casualty values.
 - Map-based density representation.
 
-It provides a spatial perspective on the distribution of recorded casualties.
+**provides a spatial perspective on the distribution of recorded casualties.**
 
 ---
 
