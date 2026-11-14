@@ -23,10 +23,11 @@
 
 **Transforming historical terrorism data into meaningful analytical insights through interactive charts, geographical maps, statistical analysis, and advanced visualization techniques.**
 
-</div>
 <div align="center">
 [![GitHub Stars](https://img.shields.io/github/stars/shahidazam2020-oss/Data-Visualization?style=social)](https://github.com/shahidazam2020-oss/Data-Visualization/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/shahidazam2020-oss/Data-Visualization?style=social)](https://github.com/shahidazam2020-oss/Data-Visualization/forks)
+</div>
+
 
 ---
 
