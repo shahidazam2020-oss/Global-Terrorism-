@@ -324,7 +324,7 @@ Global-Terrorism-/
 └── datavis_mid2025.ipynb
 ```
 
-The README also documents visualization image filenames and a project notebook reference using a slightly different filename. Verify those paths and filenames before adding them to the repository structure.
+**The README also documents visualization image filenames and a project notebook reference using a slightly different filename. Verify those paths and filenames before adding them to the repository structure.**
 
 ---
 
