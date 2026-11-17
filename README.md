@@ -23,7 +23,6 @@
 
 **Transforming historical terrorism data into meaningful analytical insights through interactive charts, geographical maps, statistical analysis, and advanced visualization techniques.**
 
-<p align="left">
   <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/stargazers">
     <img src="https://img.shields.io/github/stars/shahidazam2020-oss/Global-Terrorism-?style=social" alt="GitHub Stars">
   </a>
@@ -33,7 +32,6 @@
   <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/commits">
     <img src="https://img.shields.io/github/last-commit/shahidazam2020-oss/Global-Terrorism-?style=flat-square" alt="GitHub Last Commit">
   </a>
-</p>
 </div>
 
 
