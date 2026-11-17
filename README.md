@@ -23,8 +23,17 @@
 
 **Transforming historical terrorism data into meaningful analytical insights through interactive charts, geographical maps, statistical analysis, and advanced visualization techniques.**
 
-[![GitHub Stars](https://img.shields.io/github/stars/shahidazam2020-oss/Data-Visualization?style=social)](https://github.com/shahidazam2020-oss/Data-Visualization/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/shahidazam2020-oss/Data-Visualization?style=social)](https://github.com/shahidazam2020-oss/Data-Visualization/forks)
+<p align="left">
+  <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/stargazers">
+    <img src="https://img.shields.io/github/stars/shahidazam2020-oss/Global-Terrorism-?style=social" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/forks">
+    <img src="https://img.shields.io/github/forks/shahidazam2020-oss/Global-Terrorism-?style=social" alt="GitHub Forks">
+  </a>
+  <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/commits">
+    <img src="https://img.shields.io/github/last-commit/shahidazam2020-oss/Global-Terrorism-?style=flat-square" alt="GitHub Last Commit">
+  </a>
+</p>
 </div>
 
 
