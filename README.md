@@ -1,5 +1,17 @@
 <div align="center">
 
+ <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/stargazers">
+    <img src="https://img.shields.io/github/stars/shahidazam2020-oss/Global-Terrorism-?style=social" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/forks">
+    <img src="https://img.shields.io/github/forks/shahidazam2020-oss/Global-Terrorism-?style=social" alt="GitHub Forks">
+  </a>
+  <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/commits">
+    <img src="https://img.shields.io/github/last-commit/shahidazam2020-oss/Global-Terrorism-?style=flat-square" alt="GitHub Last Commit">
+  </a>
+
+  ---
+
 # 🌍 Global Terrorism Data Visualization & Analysis
 
 ### Exploring Global Terrorism Patterns Through Python, Data Analytics & Geospatial Visualization
@@ -23,15 +35,7 @@
 
 **Transforming historical terrorism data into meaningful analytical insights through interactive charts, geographical maps, statistical analysis, and advanced visualization techniques.**
 
-  <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/stargazers">
-    <img src="https://img.shields.io/github/stars/shahidazam2020-oss/Global-Terrorism-?style=social" alt="GitHub Stars">
-  </a>
-  <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/forks">
-    <img src="https://img.shields.io/github/forks/shahidazam2020-oss/Global-Terrorism-?style=social" alt="GitHub Forks">
-  </a>
-  <a href="https://github.com/shahidazam2020-oss/Global-Terrorism-/commits">
-    <img src="https://img.shields.io/github/last-commit/shahidazam2020-oss/Global-Terrorism-?style=flat-square" alt="GitHub Last Commit">
-  </a>
+ 
 </div>
 
 
