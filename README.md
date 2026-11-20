@@ -452,16 +452,6 @@ Interested in Artificial Intelligence, Machine Learning, Data Visualization, and
 - 🆔 ORCID: [0009-0001-6825-8863](https://orcid.org/0009-0001-6825-8863)
 - 📧 Email: shahidazam2020@gmail.com
 
----
-
-## 🤝 Contributions
-
-**Suggestions, improvements, and contributions are welcome.**
-
-1. Fork this repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a pull request.
 
 ---
 
