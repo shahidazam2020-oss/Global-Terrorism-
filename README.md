@@ -481,3 +481,5 @@ Interested in Artificial Intelligence, Machine Learning, Data Visualization, and
 If this project helps you understand machine learning for healthcare prediction, consider:
 
 ⭐ **Starring the repository**
+
+🍴 **Forking the project**
